@@ -267,7 +267,7 @@ class Main
         			System.out.println("Elapsed time: "+duration);
         		    break;
             	}
-            }while(ch<=6);
+            }while(ch<=5);
             
     } 
 }
