@@ -202,37 +202,37 @@ class Main
             	switch(ch)
             	{
             		case 1:
-				startTime = System.nanoTime();
+				startTime = System.currentTimeMillis();
             		    
             			lp.bubbleSort(array);
             			System.out.println("\nSorted array"); 
         			lp.print(array, n);
                 		
-                		endTime = System.nanoTime();
+                		endTime = System.currentTimeMillis();
            	 	        duration = (endTime - startTime);  //Total execution time in milli seconds
             	        	System.out.println("Elapsed time: "+duration);
             		break;
 
             		case 2:
-            			startTime = System.nanoTime();
+            			startTime = System.currentTimeMillis();
             		    
 				lp.selectionSort(array);
 				System.out.println("\nSorted array"); 
 				lp.print(array, n);
 
-				endTime = System.nanoTime();
+				endTime = System.currentTimeMillis();
 				duration = (endTime - startTime);  //Total execution time in milli seconds
 				System.out.println("Elapsed time: "+duration);
             		break;
         
             		case 3:
-            		    	startTime = System.nanoTime();
+            		    	startTime = System.currentTimeMillis();
             		    
         		        lp.insertionSort(array);
         		        System.out.println("\nSorted array"); 
         			lp.print(array, n);
         		        
-        		        endTime = System.nanoTime();
+        		        endTime = System.currentTimeMillis();
            	 	        duration = (endTime - startTime);  //Total execution time in milli seconds
             	        	System.out.println("Elapsed time: "+duration);
         		    break;
@@ -240,27 +240,27 @@ class Main
         		    
         		    case 4:
         		        
-                        	startTime = System.nanoTime();
+                        	startTime = System.currentTimeMillis();
                         
 				lp.sort(array, 0, array.length-1); 
 				  
 				System.out.println("\nSorted array"); 
         			lp.print(array, n);
 				        
-				endTime = System.nanoTime();
+				endTime = System.currentTimeMillis();
            	 	        duration = (endTime - startTime);  //Total execution time in milli seconds
             	        	System.out.println("Elapsed time: "+duration);
         		    break;
 
         		    case 5:
-        		        startTime = System.nanoTime();
+        		        startTime = System.currentTimeMillis();
         
        	 			lp.radixsort(array, n); 
   
         			System.out.println("\nSorted array"); 
         			lp.print(array, n);
 
-        			endTime = System.nanoTime();
+        			endTime = System.currentTimeMillis();
 
         			duration = (endTime - startTime);  //Total execution time in milli seconds
         
