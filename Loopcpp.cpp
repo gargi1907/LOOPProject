@@ -211,7 +211,6 @@ int main()
 	              clock_t t1;
 	              t1 = clock();
                   size_t size1 = 100000;
-                  printArray(num1, n);
 	              selectionSort(num1, n);
 	              cout << "Sorted array: \n";
 	              printArray(num1, n);
