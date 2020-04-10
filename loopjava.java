@@ -167,7 +167,7 @@ class Main
     { 
         loopjava lp=new loopjava();
        
-    	int n=10;
+    	int n=1000000;
        	int num[]=new int[n];
        	Random random=new Random();
   
@@ -205,11 +205,13 @@ class Main
 				startTime = System.currentTimeMillis();
             		    
             			lp.bubbleSort(array);
-            			System.out.println("\nSorted array"); 
-        			lp.print(array, n);
                 		
                 		endTime = System.currentTimeMillis();
            	 	        duration = (endTime - startTime);  //Total execution time in milli seconds
+
+				System.out.println("\nSorted array"); 
+        			lp.print(array, n);
+
             	        	System.out.println("Elapsed time: "+duration);
             		break;
 
@@ -217,11 +219,13 @@ class Main
             			startTime = System.currentTimeMillis();
             		    
 				lp.selectionSort(array);
-				System.out.println("\nSorted array"); 
-				lp.print(array, n);
 
 				endTime = System.currentTimeMillis();
 				duration = (endTime - startTime);  //Total execution time in milli seconds
+
+				System.out.println("\nSorted array"); 
+        			lp.print(array, n);
+
 				System.out.println("Elapsed time: "+duration);
             		break;
         
@@ -229,11 +233,13 @@ class Main
             		    	startTime = System.currentTimeMillis();
             		    
         		        lp.insertionSort(array);
-        		        System.out.println("\nSorted array"); 
-        			lp.print(array, n);
         		        
         		        endTime = System.currentTimeMillis();
            	 	        duration = (endTime - startTime);  //Total execution time in milli seconds
+
+        		        System.out.println("\nSorted array"); 
+        			lp.print(array, n);
+
             	        	System.out.println("Elapsed time: "+duration);
         		    break;
         		    
@@ -243,31 +249,32 @@ class Main
                         	startTime = System.currentTimeMillis();
                         
 				lp.sort(array, 0, array.length-1); 
-				  
-				System.out.println("\nSorted array"); 
-        			lp.print(array, n);
 				        
 				endTime = System.currentTimeMillis();
            	 	        duration = (endTime - startTime);  //Total execution time in milli seconds
-            	        	System.out.println("Elapsed time: "+duration);
+
+				System.out.println("\nSorted array"); 
+        			lp.print(array, n);
+            	        	
+				System.out.println("Elapsed time: "+duration);
         		    break;
 
         		    case 5:
         		        startTime = System.currentTimeMillis();
         
        	 			lp.radixsort(array, n); 
-  
-        			System.out.println("\nSorted array"); 
-        			lp.print(array, n);
-
+ 
         			endTime = System.currentTimeMillis();
 
         			duration = (endTime - startTime);  //Total execution time in milli seconds
-        
-        			System.out.println("Elapsed time: "+duration);
+        			
+				System.out.println("\nSorted array"); 
+        			lp.print(array, n);        
+        			
+				System.out.println("Elapsed time: "+duration);
         		    break;
             	}
-            }while(ch<=5);
+            }while(ch<=6);
             
     } 
 }
