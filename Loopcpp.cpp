@@ -194,14 +194,14 @@ int main()
 	             {
 	              clock_t t;
 	              t = clock();
-                  size_t size = 100000;
+                     size_t size = 100000;
 	              bubbleSort(arr, n);
-	              cout<<"Sorted array: \n";
-	              printArray(arr, n);
 	              t = clock() - t;
 	              cout << "time: " << t << " miliseconds" << endl;
-                  cout << CLOCKS_PER_SEC << " clocks per second" << endl;
+                     cout << CLOCKS_PER_SEC << " clocks per second" << endl;
 	              cout << "time: " << t*1.0/CLOCKS_PER_SEC << " seconds" << endl;
+		     cout<<"Sorted array: \n";	 
+		     printArray(arr, n);     
 	              break;
 
 	             }
@@ -211,12 +211,12 @@ int main()
 	              t1 = clock();
                   size_t size1 = 100000;
 	              selectionSort(num1, n);
-	              cout << "Sorted array: \n";
-	              printArray(num1, n);
 	              t1 = clock() - t1;
 	              cout << "time: " << t1 << " miliseconds" << endl;
-                  cout << CLOCKS_PER_SEC << " clocks per second" << endl;
+                      cout << CLOCKS_PER_SEC << " clocks per second" << endl;
 	              cout << "time: " << t1*1.0/CLOCKS_PER_SEC << " seconds" << endl;
+		     cout << "Sorted array: \n";
+	              printArray(num1, n);	      
 	              break;
 
 	              }
@@ -226,12 +226,12 @@ int main()
 	               t2 = clock();
                    size_t size2 = 100000;
 	               insertionSort(num2, n);
-	               cout<<"Sorted array: \n";
-	               printArray(num2, n);
 	               t2 = clock() - t2;
 	               cout << "time: " << t2 << " miliseconds" << endl;
-                   cout << CLOCKS_PER_SEC << " clocks per second" << endl;
+                       cout << CLOCKS_PER_SEC << " clocks per second" << endl;
 	               cout << "time: " << t2*1.0/CLOCKS_PER_SEC << " seconds" << endl;
+		      cout<<"Sorted array: \n";
+	               printArray(num2, n);	       
 	               break;
 
 	               }
@@ -241,12 +241,12 @@ int main()
 	               t3 = clock();
                    size_t size3 = 100000;
 	               mergeSort(num3, 0, n - 1);
-                   cout<<"Sorted array: \n";
-	               printArray(num3, n);
 	               t3 = clock() - t3;
 	               cout << "time: " << t3 << " miliseconds" << endl;
                    cout << CLOCKS_PER_SEC << " clocks per second" << endl;
 	               cout << "time: " << t3*1.0/CLOCKS_PER_SEC << " seconds" << endl;
+			 cout<<"Sorted array: \n";
+	               printArray(num3, n);       
 	               break;
 
 	               }
@@ -257,12 +257,12 @@ int main()
 	               t4 = clock();
                    size_t size4 = 100000;
 	               radixsort(num4, n);
-	               cout<<"Sorted array: \n ";
-	               printArray(num4, n);
 	               t4 = clock() - t4;
 	               cout << "time: " << t4 << " miliseconds" << endl;
-                   cout << CLOCKS_PER_SEC << " clocks per second" << endl;
+                      cout << CLOCKS_PER_SEC << " clocks per second" << endl;
 	               cout << "time: " << t4*1.0/CLOCKS_PER_SEC << " seconds" << endl;
+		        cout<<"Sorted array: \n ";
+	               printArray(num4, n);      
 	               break;
 
 	              }
