@@ -3,54 +3,42 @@ import time
 import copy
 def main():
     condition=True
-    import random
+
     A=[]
-    for j in range(10):
-    	A.append(random.randint(1,10))
     while condition==True:
         menu()
         choice=input("Enter your choice")
         choice=int(choice)
         if choice==1:
             B=copy.deepcopy(A)
-            for k in range(10):
-                print(B[k])
+
             ans=bubble(B)
             print("Execution time for Bubble Sort: ",ans)
-            for k in range(10):
-                print(B[k])
+
         elif choice==2:
             B=copy.deepcopy(A)
-            for k in range(10):
-                print(B[k])
+
             ans=selection(B)
             print("Execution time for Selection Sort: ",ans)
-            for k in range(10):
-                print(B[k])
+
         elif choice==3:
             B=copy.deepcopy(A)
-            for k in range(10):
-                print(B[k])
+
             ans=insertion(B)
             print("Execution time for Insertion Sort: ",ans)
-            for k in range(10):
-                print(B[k])
+
         elif choice==4:
             B=copy.deepcopy(A)
-            for k in range(10):
-                print(B[k])
+
             ans=merge(B)
             print("Execution time for Merge Sort: ",ans)
-            for k in range(10):
-                print(B[k])
+
         elif choice==5:
             B=copy.deepcopy(A)
-            for k in range(10):
-                print(B[k])
+
             ans=radix(B)
             print("Execution time for Radix Sort: ",ans)
-            for k in range(10):
-                print(B[k])
+
         elif choice==6:
             print("Thankyou")
             condition=False
