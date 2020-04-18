@@ -1,5 +1,8 @@
 # A Comparative Performance Analysis of Popular Algorithms in Languages you've studied
 
+# Abstract
+
+There are many programming languages existent in this world, each of them with its own pros and cons. C, CPP, Python are very extensively used for different purposes. While C and CPP have been used since a long time and are still in demand, Python has become popular in the recent times comparatively. This **research project focuses on the comparative analysis of these languages with other different aspects like processors, sorting techniques (Sorting refers to the arrangement of data in a particular order using a particular logic.) and amount of data given as input.**
 # Research Methodology
 
 The three languages that we chose for this project are  **C, C++ and Python.**
@@ -30,8 +33,9 @@ All the language codes were run on all combinations of processors.
 It was realized that in the later slots since the number of numbers increased manifold there was a slight variation in the readings being taken, so an average of five readings was taken for the last slot.
 
 After taking the reading of execution timings for the above mentioned methodology, Comparison ratios were generated with all the permutations and graphs were plotted of the readings taken to make analysis simpler.
+# ANALYSIS
 
-# COMPILED VS INTERPRETED LANGUAGES ANALYSIS
+# Compiled VS Interpreted Languages Performance Analysis
 
 
 
@@ -70,7 +74,7 @@ An Interpreted language gives implementations some additional flexibility over c
  The most notable disadvantage is less execution speed compared to compiled languages
 
 
-# Comparative Analysis of Different Languages ( C , C++,Python)
+# Comparative Performance Analysis of Different Languages ( C , C++,Python)
 
 ## C vs C ++
 
@@ -99,7 +103,7 @@ Another name for a virtual machine is a “bytecode interpreter”.
 **_Interpreted code is always slower than direct machine code, because it takes a lot more instructions in order to implement an interpreted instruction than to implement an actual machine instruction._**
 
 
-# Comparative Analysis of Different Processors ( i3,i5,i7)
+# Comparative Performance Analysis of Different Processors ( i3,i5,i7)
 
 
 Intel’s current core processors are divided into three ranges(**Core i3, Core i5 and Core i7**), with several models in each range.
@@ -132,3 +136,4 @@ Although there are minor differences between C and C++, **C++ is preferred over 
 Furthermore, we considered the processors of the machines used in this project as they are highly accountable for the performance time of the codes.
 We have used intel core processors i3, i5 and i7. Because of absence of Turbo boost in processor **i3, it is the slowest, whereas i7 being the fastest processor.**
 Since **performance improvement is the goal** thus this study gives a trend for **future research in order to minimize the time taken for sorting.**
+
