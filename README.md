@@ -3,6 +3,7 @@
 # Abstract
 
 There are many programming languages existent in this world, each of them with its own pros and cons. C, CPP, Python are very extensively used for different purposes. While C and CPP have been used since a long time and are still in demand, Python has become popular in the recent times comparatively. This **research project focuses on the comparative analysis of these languages with other different aspects like processors, sorting techniques (Sorting refers to the arrangement of data in a particular order using a particular logic.) and amount of data given as input.**
+
 # Research Methodology
 
 The three languages that we chose for this project are  **C, C++ and Python.**
@@ -33,7 +34,7 @@ All the language codes were run on all combinations of processors.
 It was realized that in the later slots since the number of numbers increased manifold there was a slight variation in the readings being taken, so an average of five readings was taken for the last slot.
 
 After taking the reading of execution timings for the above mentioned methodology, Comparison ratios were generated with all the permutations and graphs were plotted of the readings taken to make analysis simpler.
-# ANALYSIS
+# Analysis
 
 # Compiled VS Interpreted Languages Performance Analysis
 
@@ -125,7 +126,7 @@ This may be interesting, **the slowest Core i3 chips runs at a faster speed than
 **That’s why, i7 processor takes the least time to execute the program while i3 processor takes more time to execute than i5 as it does not have a Turbo Boost like i5 and i7.**
 
 
-# RESULT
+# Result
 
 In this research based project we have described our work on **comparative analysis of popular algorithms in C, C++ and Python.**
 The algorithms that we chose, were **Bubble sort, Selection sort, Insertion sort , Merge sort and Radix sort.**
@@ -137,3 +138,34 @@ Furthermore, we considered the processors of the machines used in this project a
 We have used intel core processors i3, i5 and i7. Because of absence of Turbo boost in processor **i3, it is the slowest, whereas i7 being the fastest processor.**
 Since **performance improvement is the goal** thus this study gives a trend for **future research in order to minimize the time taken for sorting.**
 
+
+# REFERENCES
+
+
+[1] www.geeksforgeeks.com
+[2] www.programiz.com
+[3] www.researchgate.net
+[4] www.semanticscholars.org
+[5] www.cplusplus.com
+[6] www.sciencedirect.com
+[7] www.stackoverflow.com
+[8] www.wikipedia.com
+[9] www.kitchentablecomputers.com
+[10] www.d.umn.edu
+[11] www.whatis.techtarget.com
+[12] www.tutorialsonpoint.com
+[13] www.hackerearth.com
+[14] www.softwaretestinghelp.com
+[15] www.javapoint.com
+[16] www.studytonight.com
+[17] www.trustedreviews.com
+[18] www.cs.stackexchange.com
+[19] www.academia.edu
+[20] www.educative.io
+[21] www.ijlcenca.in
+[22] www.sce.carleton.ca
+
+
+
+
+```
