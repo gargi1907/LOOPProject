@@ -165,7 +165,15 @@ Since **performance improvement is the goal** thus this study gives a trend for 
 [21] www.ijlcenca.in
 [22] www.sce.carleton.ca
 
-
+| Passes | 6|23 | 4|17 |19
+|--|--|--|--|--|--
+| 1st pass: | 6 |23 |4 |17|19
+|  | 6 |4 |23 |17|19
+|| 6 |4 |17 |23|19
+| | 6 |4 |17 |19|23
+| 2nd pass: | 4 |6 |17 |19|23
+| 3rd pass: | 4 |6 |17 |19|23
+| 4th pass: | 4 |6 |17 |19|23
 
 
 ```
